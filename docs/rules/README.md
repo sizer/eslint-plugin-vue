@@ -128,13 +128,16 @@ For example:
 ```json
 {
   "rules": {
-    "vue/script-indent": "error"
+    "vue/html-comment-content-newline": "error"
   }
 }
 ```
 
 | Rule ID | Description |    |
 |:--------|:------------|:---|
+| [vue/html-comment-content-newline](./html-comment-content-newline.md) | enforce unified line brake in a HTML comment | :wrench: |
+| [vue/html-comment-content-spacing](./html-comment-content-spacing.md) | enforce unified spacing in a HTML comment | :wrench: |
+| [vue/html-comment-indent](./html-comment-indent.md) | enforce consistent indentation in HTML comment | :wrench: |
 | [vue/script-indent](./script-indent.md) | enforce consistent indentation in `<script>` | :wrench: |
 
 ## Deprecated
